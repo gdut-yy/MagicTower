@@ -14,8 +14,8 @@
 
 **注：**
 
-- 项目下的[魔塔V1.12.swf](魔塔V1.12.swf)为原作品
-- 项目下的[]()为本人的仿制作品
+- **项目下的【魔塔V1.12.swf】为原作品**
+- **项目下的【.jar】为本人的仿制作品**
 
 ## 二、操作指南（本游戏适合 18 岁以上用户）
 
@@ -32,3 +32,35 @@
 3. 楼层跳跃时可以跳跃到未到达过的楼层 
 4. 相当一部分对话未完整，中英混合
 5. ……
+
+## 四、About
+
+IntelliJ IDEA 2017.3.2 (Ultimate Edition)
+Build #IU-173.4127.27, built on December 26, 2017
+Licensed to Z YY
+Subscription is active until May 31, 2019
+For educational use only.
+JRE: 1.8.0_152-release-1024-b8 amd64
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+Windows 10 10.0
+
+----
+
+## 五、设计模式
+
+- 关于 static 关键字使用。游戏中全局数据使用 static 修饰。数据预设部分为方便也为 static。
+- 地图数据：MapData（24层的初始地形）
+- 怪物数据：MonsterData（33种怪物，id、名字、生命、攻击、防御、金钱、经验）
+- 道具数据：ItemsData（获得各种普通道具后的提示）
+- 怪物位置数据：MonstersLocatedData
+- 道具位置数据：ItemsLocatedData
+- NPC位置数据：DialoguesLocatedData
+- 对话事件
+- 道具事件
+- 怪物动画
+- 地图动画
+
+## 重点注意
+
+- 白衣武士，不论攻防，会扣除当前 1/4 生命
+- 灵法师，不论攻防，会扣除当前 1/3 生命
