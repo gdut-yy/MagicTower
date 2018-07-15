@@ -1,20 +1,19 @@
 package com.mymt;
 
-import com.mymt.data.MonsterData;
+import com.mymt.bean.ItemsBean;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.io.IOException;
 
 import static com.mymt.MTGame.*;
-import static com.mymt.util.BattleUtil.battleFrame;
+import static com.mymt.util.BattleUtil.battleLPane;
 import static com.mymt.util.ForecastUtil.displayForecast;
-import static com.mymt.util.ForecastUtil.forecastFrame;
+import static com.mymt.util.ForecastUtil.forecastLPane;
 import static com.mymt.util.JumpUtil.displayJump;
-import static com.mymt.util.JumpUtil.jumpFrame;
-import static com.mymt.util.MsgUtil.msgPane;
+import static com.mymt.util.JumpUtil.jumpLPane;
+import static com.mymt.util.MsgUtil.msgLPane;
 import static java.awt.event.KeyEvent.*;
 
 
@@ -22,16 +21,6 @@ import static java.awt.event.KeyEvent.*;
  * Main 类
  * <p>
  * 运行类。
- * <p>
- * 主要是根据 魔塔 v1.12 这个版本 进行仿制。
- * <p>
- * 目前所使用的资源文件（72 pix）仅对屏幕分辨率 1920 * 1080 或以上的进行了适配。
- * 游戏主窗口大小 1296 * 936
- * <p>
- * 后续将适配 1280 * 720（54 pix）
- * 游戏主窗口大小 972 * 702
- * <p>
- * GitHub 地址：
  *
  * @author ZYY
  * @since 2018-7-9
@@ -39,19 +28,15 @@ import static java.awt.event.KeyEvent.*;
 public class Main {
 
     public static void main(String[] args) {
+        gamePanel = new MTGame();
+        gamePanel.setPreferredSize(new Dimension(GAME_PIX_72 * 18, GAME_PIX_72 * 13));
 
-
-        //System.out.println(MonsterData.monsterMap.get(3).getName());
-//        try {
-        game = new MTGame();
-        game.setPreferredSize(new Dimension(GAME_PIX * 18, GAME_PIX * 13));
-
-        game.add(forecastFrame);
-        game.add(jumpFrame);
-        game.add(battleFrame);
-        game.add(msgPane);
-        game.add(time);
-        fr.addKeyListener(new KeyListener() {
+        gamePanel.add(forecastLPane);
+        gamePanel.add(jumpLPane);
+        gamePanel.add(battleLPane);
+        gamePanel.add(msgLPane);
+        gamePanel.add(timeLabel);
+        gameFrame.addKeyListener(new KeyListener() {
 
             @Override
             public void keyTyped(KeyEvent e) {
@@ -64,43 +49,39 @@ public class Main {
 
                         case VK_DOWN:   // 键盘 ↓
                             if (playerBean_1.getPosY() + 1 < 11 && playerBean_1.getPosY() + 1 >= 0) {
-//                                            playerBean_1.drct = 1;
                                 playerBean_1.setToward(1);
                                 interaction(playerBean_1.getPosX(), playerBean_1.getPosY() + 1);
-                                MTGame.fr.repaint();
+                                MTGame.gameFrame.repaint();
                             }
                             break;
                         case VK_RIGHT:  // 键盘 →
                             if (playerBean_1.getPosX() + 1 < 11 && playerBean_1.getPosX() + 1 >= 0) {
-//                                            playerBean_1.drct = 2;
                                 playerBean_1.setToward(2);
                                 interaction(playerBean_1.getPosX() + 1, playerBean_1.getPosY());
-                                MTGame.fr.repaint();
+                                MTGame.gameFrame.repaint();
                             }
                             break;
                         case VK_UP:     // 键盘 ↑
                             if (playerBean_1.getPosY() - 1 < 11 && playerBean_1.getPosY() - 1 >= 0) {
-//                                            playerBean_1.drct = 3;
                                 playerBean_1.setToward(3);
                                 interaction(playerBean_1.getPosX(), playerBean_1.getPosY() - 1);
-                                MTGame.fr.repaint();
+                                MTGame.gameFrame.repaint();
                             }
                             break;
                         case VK_LEFT:   // 键盘 ←
                             if (playerBean_1.getPosX() - 1 < 11 && playerBean_1.getPosX() - 1 >= 0) {
-//                                            playerBean_1.drct = 0;
                                 playerBean_1.setToward(0);
                                 interaction(playerBean_1.getPosX() - 1, playerBean_1.getPosY());
-                                fr.repaint();
+                                gameFrame.repaint();
                             }
                             break;
                         case VK_J:      // 键盘 J
-                            if (fly) {
+                            if (ItemsBean.isHasJump) {
                                 displayJump();
                             }
                             break;
                         case VK_L:      // 键盘 L
-                            if (forecast) {
+                            if (ItemsBean.isHasForecast) {
                                 displayForecast();
                             }
                             break;
@@ -108,8 +89,8 @@ public class Main {
                 else if (e.getKeyCode() == e.VK_L)//bug
                 {
                     inConversation = false;
-                    forecastFrame.removeAll();
-                    forecastFrame.setVisible(false);
+                    forecastLPane.removeAll();
+                    forecastLPane.setVisible(false);
                 }
             }
 
@@ -118,14 +99,11 @@ public class Main {
             }
         });
 
-        fr.setContentPane(game);
-        fr.setResizable(false);
-        fr.pack();
-        fr.setLocationRelativeTo(null);
-        fr.setVisible(true);
-        fr.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-//        } catch (IOException ex) {
-//            ex.printStackTrace();
-//        }
+        gameFrame.setContentPane(gamePanel);
+        gameFrame.setResizable(false);
+        gameFrame.pack();
+        gameFrame.setLocationRelativeTo(null);
+        gameFrame.setVisible(true);
+        gameFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }

@@ -1,28 +1,28 @@
-package com.mymt.util;
+package com.mymt.data;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
 
 
 /**
- * ImageUtil 工具类
+ * ImageData 类
  * <p>
- * 加载资源文件。因为游戏中 资源文件 大量重用。
- * 针对这一特点进行优化。
+ * 加载资源文件。因为游戏中的 资源文件 需大量重用。
+ * 针对这一点进行优化。
  * <p>
  * 具体对应图形 请详见
  * /res/map0
  * /res/map1
  * /res/player
+ * /res
  *
  * @author ZYY
  * @since 2018-7-14
  */
-public class ImageUtil {
+public class ImageData {
 
     private static final int PLAYER_LEFT = -1;
     private static final int PLAYER_DOWN = -2;
@@ -70,7 +70,7 @@ public class ImageUtil {
             imagesMap0.put(26, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/26.png")));
             imagesMap0.put(27, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/27.png")));
             imagesMap0.put(28, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/28.png")));
-            imagesMap0.put(29, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/29.png")));
+//            imagesMap0.put(29, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/29.png")));
             imagesMap0.put(30, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/30.png")));
             imagesMap0.put(31, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/31.png")));
             imagesMap0.put(32, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/32.png")));
@@ -126,7 +126,16 @@ public class ImageUtil {
             imagesMap0.put(187, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/187.png")));
             imagesMap0.put(188, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/188.png")));
             imagesMap0.put(189, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/189.png")));
-            imagesMap0.put(201, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/201.png")));
+            imagesMap0.put(191, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/191.png")));
+            imagesMap0.put(192, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/192.png")));
+            imagesMap0.put(193, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/193.png")));
+            imagesMap0.put(194, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/194.png")));
+            imagesMap0.put(195, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/195.png")));
+            imagesMap0.put(196, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/196.png")));
+            imagesMap0.put(197, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/197.png")));
+            imagesMap0.put(198, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/198.png")));
+            imagesMap0.put(199, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/199.png")));
+//            imagesMap0.put(201, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/201.png")));
             imagesMap0.put(202, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/202.png")));
             imagesMap0.put(203, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map0/203.png")));
             // 重复图片
@@ -174,7 +183,7 @@ public class ImageUtil {
             imagesMap1.put(26, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/26.png")));
             imagesMap1.put(27, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/27.png")));
             imagesMap1.put(28, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/28.png")));
-            imagesMap1.put(29, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/29.png")));
+//            imagesMap1.put(29, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/29.png")));
             imagesMap1.put(30, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/30.png")));
             imagesMap1.put(31, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/31.png")));
             imagesMap1.put(32, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/32.png")));
@@ -230,7 +239,16 @@ public class ImageUtil {
             imagesMap1.put(187, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/187.png")));
             imagesMap1.put(188, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/188.png")));
             imagesMap1.put(189, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/189.png")));
-            imagesMap1.put(201, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/201.png")));
+            imagesMap1.put(191, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/191.png")));
+            imagesMap1.put(192, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/192.png")));
+            imagesMap1.put(193, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/193.png")));
+            imagesMap1.put(194, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/194.png")));
+            imagesMap1.put(195, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/195.png")));
+            imagesMap1.put(196, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/196.png")));
+            imagesMap1.put(197, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/197.png")));
+            imagesMap1.put(198, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/198.png")));
+            imagesMap1.put(199, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/199.png")));
+//            imagesMap1.put(201, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/201.png")));
             imagesMap1.put(202, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/202.png")));
             imagesMap1.put(203, ImageIO.read(new File(System.getProperty("user.dir") + "/res/map1/203.png")));
             // 重复图片

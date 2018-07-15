@@ -2,29 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="460162fe-ea30-472c-bce4-90c491af4535" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/00.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/08.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/18_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/18_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/19.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/19_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/19_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/21_2.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/res/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/dialogueBackground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/dialogueProperty.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/dialogueProperty2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/enemyProperty.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/enemyProperty2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/itemProperty.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/player_back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/player_front.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/player_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/player_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/property.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/property2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bug.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bug2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bug3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/dialogueMap.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/enemy.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/enemyMap.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/itemMap.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/map0/187.png" afterPath="$PROJECT_DIR$/res/map0/187.png" />
+      <change beforePath="$PROJECT_DIR$/res/map0/201.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/map0/29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/map1/187.png" afterPath="$PROJECT_DIR$/res/map1/187.png" />
+      <change beforePath="$PROJECT_DIR$/res/map1/20.png" afterPath="$PROJECT_DIR$/res/map1/20.png" />
+      <change beforePath="$PROJECT_DIR$/res/map1/201.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/map1/29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/map1/31.png" afterPath="$PROJECT_DIR$/res/map1/31.png" />
       <change beforePath="$PROJECT_DIR$/src/com/mymt/MTGame.java" afterPath="$PROJECT_DIR$/src/com/mymt/MTGame.java" />
       <change beforePath="$PROJECT_DIR$/src/com/mymt/Main.java" afterPath="$PROJECT_DIR$/src/com/mymt/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/PlayerBean.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java" />
       <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java" />
       <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/data/DialoguesData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/data/MapData.java" afterPath="$PROJECT_DIR$/src/com/mymt/data/MapData.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/ImageUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/data/ImageData.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/181.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/182.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/183.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/184.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/185.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/186.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/187.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/188.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/189.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_39.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_47.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_64.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_66.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_68.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/批处理/72/frame1/20.png" afterPath="$PROJECT_DIR$/批处理/72/frame1/20.png" />
+      <change beforePath="$PROJECT_DIR$/批处理/ziyuan_115.png" afterPath="$PROJECT_DIR$/批处理/ziyuan_115.png" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,23 +100,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ImageUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-937">
+              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,8 +110,8 @@
       <file leaf-file-name="BattleUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="123" column="30" lean-forward="false" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+            <state relative-caret-position="507">
+              <caret line="118" column="39" lean-forward="false" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,35 +119,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MTGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mymt/util/DialogUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MTGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymt/MTGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2527">
-              <caret line="80" column="18" lean-forward="false" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="436">
+              <caret line="227" column="36" lean-forward="false" selection-start-line="227" selection-start-column="36" selection-end-line="227" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +158,9 @@
       <file leaf-file-name="ForecastUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2033">
+              <caret line="116" column="23" lean-forward="false" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,11 +168,19 @@
       <file leaf-file-name="JumpUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1146">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsgUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,18 +188,20 @@
       <file leaf-file-name="DialoguesBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-893">
-              <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="104">
+              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemsBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java">
+      <file leaf-file-name="ShopUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="94" column="62" lean-forward="false" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="62" />
+            <state relative-caret-position="-4085">
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -176,6 +219,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>player</find>
+      <find>201</find>
+      <find>29</find>
+      <find>31</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -208,25 +254,29 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/mymt/util/ImageIoUtil.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/util/StoreUtil.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/PlayerBean.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/data/DialoguesData.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/data/MonsterData.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/data/MapData.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/util/MessageUtil.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/util/GameUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/DialogUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/ImageDatal.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/ImageData.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/data/ImageData.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/data/DialoguesData.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/data/MapData.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java" />
         <option value="$PROJECT_DIR$/src/com/mymt/MTGame.java" />
+        <option value="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" />
       </list>
     </option>
   </component>
@@ -243,10 +293,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -275,11 +324,6 @@
             <path>
               <item name="MyMT" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyMT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyMT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyMT" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyMT" type="b2602c69:ProjectViewProjectNode" />
@@ -477,12 +521,12 @@
       <workItem from="1531270673565" duration="3771000" />
       <workItem from="1531285087248" duration="35210000" />
       <workItem from="1531356923605" duration="37433000" />
-      <workItem from="1531447890625" duration="54376000" />
+      <workItem from="1531447890625" duration="80860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136881000" />
+    <option name="totallyTimeSpent" value="163365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -497,11 +541,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3492927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35255712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13486141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33188248" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20842217" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,31 +574,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/MTGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21869">
-          <caret line="1157" column="10" lean-forward="false" selection-start-line="1157" selection-start-column="10" selection-end-line="1157" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,18 +588,16 @@
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#285#286#0" expanded="false" />
-            <element signature="e#1243#1244#0" expanded="false" />
-            <element signature="e#1268#1269#0" expanded="false" />
-            <element signature="e#1298#1299#0" expanded="false" />
-            <element signature="e#1327#1328#0" expanded="false" />
-            <element signature="e#1357#1358#0" expanded="false" />
-            <element signature="e#1386#1387#0" expanded="false" />
-            <element signature="e#1415#1416#0" expanded="false" />
-            <element signature="e#1443#1444#0" expanded="false" />
-            <element signature="e#1470#1471#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,7 +632,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
           <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#18804#18805#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,9 +643,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -630,18 +653,16 @@
           <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#285#286#0" expanded="false" />
-            <element signature="e#1243#1244#0" expanded="false" />
-            <element signature="e#1268#1269#0" expanded="false" />
-            <element signature="e#1298#1299#0" expanded="false" />
-            <element signature="e#1327#1328#0" expanded="false" />
-            <element signature="e#1357#1358#0" expanded="false" />
-            <element signature="e#1386#1387#0" expanded="false" />
-            <element signature="e#1415#1416#0" expanded="false" />
-            <element signature="e#1443#1444#0" expanded="false" />
-            <element signature="e#1470#1471#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,59 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#1527#1528#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/MonsterData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="180" column="32" lean-forward="false" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/DialoguesData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/MapData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/util/GameUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -856,76 +824,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="73">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="2259" column="16" lean-forward="false" selection-start-line="2259" selection-start-column="16" selection-end-line="2259" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#77478#77479#0" expanded="false" />
+            <element signature="e#77522#77523#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/DialoguesData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-893">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="209">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="94" column="62" lean-forward="false" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="62" />
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/ImageData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-648">
+          <caret line="127" column="110" lean-forward="false" selection-start-line="127" selection-start-column="110" selection-end-line="127" selection-end-column="110" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ImageUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/MapData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="489">
+          <caret line="412" column="36" lean-forward="false" selection-start-line="412" selection-start-column="36" selection-end-line="412" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/data/MonsterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-937">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4085">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1146">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="2033">
+          <caret line="116" column="23" lean-forward="false" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/util/DialogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -934,8 +935,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="123" column="30" lean-forward="false" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+        <state relative-caret-position="507">
+          <caret line="118" column="39" lean-forward="false" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,8 +963,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mymt/MTGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2527">
-          <caret line="80" column="18" lean-forward="false" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        <state relative-caret-position="436">
+          <caret line="227" column="36" lean-forward="false" selection-start-line="227" selection-start-column="36" selection-end-line="227" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

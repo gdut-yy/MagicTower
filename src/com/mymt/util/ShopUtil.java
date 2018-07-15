@@ -8,6 +8,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 import static com.mymt.MTGame.*;
+import static com.mymt.util.DialogUtil.*;
 
 /**
  * ShopUtil 工具类
@@ -50,18 +51,18 @@ public class ShopUtil {
                 break;
         }
 
-        Insets insets = conversation.getInsets();
-        imgIco.setBounds(20 + insets.left, 20 + insets.top, GAME_PIX, GAME_PIX);
+        Insets insets = dialogLPane.getInsets();
+        imgIco.setBounds(20 + insets.left, 20 + insets.top, GAME_PIX_72, GAME_PIX_72);
         text.setBounds(100 + insets.left, 20 + insets.top, 550 - 50, 250);
         text.setText("请选择一个: \n " + choice[0] + " \n " + choice[1] + " \n " + choice[2] + " \n " + choice[3]);
-        dialogueBackground.setBounds(0, 0, 550, 250);
-        conversation.setBounds(550, 230, 550, 250);
-        conversation.add(imgIco, 2, 0);
-        conversation.add(text, 3, 0);
-        game.add(conversation);
-        game.repaint();
+        dialogBgImg.setBounds(0, 0, 550, 250);
+        dialogLPane.setBounds(550, 230, 550, 250);
+        dialogLPane.add(imgIco, 2, 0);
+        dialogLPane.add(text, 3, 0);
+        gamePanel.add(dialogLPane);
+        gamePanel.repaint();
 
-        fr.addKeyListener(new KeyListener() {
+        gameFrame.addKeyListener(new KeyListener() {
             int selection = 0;
             String message = "选择一个: \n " + choice[0] + " \n " + choice[1] + " \n " + choice[2] + " \n " + choice[3];
 
@@ -77,7 +78,7 @@ public class ShopUtil {
                     choice[selection] = choice[selection].replaceAll("▷", "▶");
                     message = "选择一个: \n " + choice[0] + " \n " + choice[1] + " \n " + choice[2] + " \n " + choice[3];
                     text.setText(message);
-                    fr.repaint();
+                    gameFrame.repaint();
                 }
                 if (selection != 0 && e.getKeyCode() == e.VK_W) {
                     choice[selection] = choice[selection].replaceAll("▶", "▷");
@@ -85,7 +86,7 @@ public class ShopUtil {
                     choice[selection] = choice[selection].replaceAll("▷", "▶");
                     message = "选择一个: \n " + choice[0] + " \n " + choice[1] + " \n " + choice[2] + " \n " + choice[3];
                     text.setText(message);
-                    fr.repaint();
+                    gameFrame.repaint();
                 }
                 if (e.getKeyCode() == e.VK_SPACE) {
                     switch (id) {
@@ -110,12 +111,12 @@ public class ShopUtil {
                                     }
                                     break;
                                 case 3:
-                                    conversation.remove(imgIco);
-                                    conversation.remove(text);
-                                    game.remove(conversation);
-                                    fr.repaint();
+                                    dialogLPane.remove(imgIco);
+                                    dialogLPane.remove(text);
+                                    gamePanel.remove(dialogLPane);
+                                    gameFrame.repaint();
                                     inConversation = false;
-                                    fr.removeKeyListener(this);
+                                    gameFrame.removeKeyListener(this);
                                     break;
                             }
                             break;
@@ -143,12 +144,12 @@ public class ShopUtil {
                                     }
                                     break;
                                 case 3:
-                                    conversation.remove(imgIco);
-                                    conversation.remove(text);
-                                    game.remove(conversation);
-                                    fr.repaint();
+                                    dialogLPane.remove(imgIco);
+                                    dialogLPane.remove(text);
+                                    gamePanel.remove(dialogLPane);
+                                    gameFrame.repaint();
                                     inConversation = false;
-                                    fr.removeKeyListener(this);
+                                    gameFrame.removeKeyListener(this);
                                     break;
                             }
                             break;
@@ -173,12 +174,12 @@ public class ShopUtil {
                                     }
                                     break;
                                 case 3:
-                                    conversation.remove(imgIco);
-                                    conversation.remove(text);
-                                    game.remove(conversation);
-                                    fr.repaint();
+                                    dialogLPane.remove(imgIco);
+                                    dialogLPane.remove(text);
+                                    gamePanel.remove(dialogLPane);
+                                    gameFrame.repaint();
                                     inConversation = false;
-                                    fr.removeKeyListener(this);
+                                    gameFrame.removeKeyListener(this);
                                     break;
                             }
                             break;
@@ -203,12 +204,12 @@ public class ShopUtil {
                                     }
                                     break;
                                 case 3:
-                                    conversation.remove(imgIco);
-                                    conversation.remove(text);
-                                    game.remove(conversation);
-                                    fr.repaint();
+                                    dialogLPane.remove(imgIco);
+                                    dialogLPane.remove(text);
+                                    gamePanel.remove(dialogLPane);
+                                    gameFrame.repaint();
                                     inConversation = false;
-                                    fr.removeKeyListener(this);
+                                    gameFrame.removeKeyListener(this);
                                     break;
                             }
                             break;
@@ -233,12 +234,12 @@ public class ShopUtil {
                                     }
                                     break;
                                 case 3:
-                                    conversation.remove(imgIco);
-                                    conversation.remove(text);
-                                    game.remove(conversation);
-                                    fr.repaint();
+                                    dialogLPane.remove(imgIco);
+                                    dialogLPane.remove(text);
+                                    gamePanel.remove(dialogLPane);
+                                    gameFrame.repaint();
                                     inConversation = false;
-                                    fr.removeKeyListener(this);
+                                    gameFrame.removeKeyListener(this);
                                     break;
                             }
                             break;
@@ -266,12 +267,12 @@ public class ShopUtil {
                                     }
                                     break;
                                 case 3:
-                                    conversation.remove(imgIco);
-                                    conversation.remove(text);
-                                    game.remove(conversation);
-                                    fr.repaint();
+                                    dialogLPane.remove(imgIco);
+                                    dialogLPane.remove(text);
+                                    gamePanel.remove(dialogLPane);
+                                    gameFrame.repaint();
                                     inConversation = false;
-                                    fr.removeKeyListener(this);
+                                    gameFrame.removeKeyListener(this);
                                     break;
                             }
                             break;

@@ -1,7 +1,5 @@
 package com.mymt.bean;
 
-import com.mymt.MTGame;
-
 import java.io.Serializable;
 
 /**
@@ -11,11 +9,8 @@ import java.io.Serializable;
  *
  * @author ZYY
  */
-public class MonsterBean extends BaseBean implements Serializable {
+public class MonsterBean implements Serializable {
 
-    public void setName(String name) {
-        this.name = name;
-    }
     @Deprecated
     private int id;         // Deprecated
     private int hp;         // 生命值
@@ -24,16 +19,6 @@ public class MonsterBean extends BaseBean implements Serializable {
     private int money;      // 金钱
     private int exp;        // 经验
     private String name;    // 怪物名
-
-//    // 构造器 根据传入的 id 生成 具体怪物
-//    public MonsterBean(int name) {
-//        this.id = name;
-//        this.hp = (int) MTGame.enemyDict[name][1];
-//        this.attack = (int) MTGame.enemyDict[name][2];
-//        this.defend = (int) MTGame.enemyDict[name][3];
-//        this.money = (int) MTGame.enemyDict[name][4];
-//        this.exp = (int) MTGame.enemyDict[name][5];
-//    }
 
     public MonsterBean(int id, int hp, int attack, int defend, int money, int exp, String name) {
         this.id = id;
@@ -87,5 +72,9 @@ public class MonsterBean extends BaseBean implements Serializable {
 //
 //    public void setExp(int exp) {
 //        this.exp = exp;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
 //    }
 }
