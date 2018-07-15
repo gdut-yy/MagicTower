@@ -1,80 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="460162fe-ea30-472c-bce4-90c491af4535" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/00.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/08.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/18_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/18_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/19_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/19_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/21_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/bug.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bug2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bug3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/dialogueMap.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/enemy.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/enemyMap.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/itemMap.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/map0/187.png" afterPath="$PROJECT_DIR$/res/map0/187.png" />
-      <change beforePath="$PROJECT_DIR$/res/map0/201.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/map0/29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/map1/187.png" afterPath="$PROJECT_DIR$/res/map1/187.png" />
-      <change beforePath="$PROJECT_DIR$/res/map1/20.png" afterPath="$PROJECT_DIR$/res/map1/20.png" />
-      <change beforePath="$PROJECT_DIR$/res/map1/201.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/map1/29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/res/map1/31.png" afterPath="$PROJECT_DIR$/res/map1/31.png" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/MTGame.java" afterPath="$PROJECT_DIR$/src/com/mymt/MTGame.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/Main.java" afterPath="$PROJECT_DIR$/src/com/mymt/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/BaseBean.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/DialoguesBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/ItemsBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/MonsterBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" afterPath="$PROJECT_DIR$/src/com/mymt/bean/PlayerBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/data/DialoguesData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/data/MapData.java" afterPath="$PROJECT_DIR$/src/com/mymt/data/MapData.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/BattleUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/ForecastUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/ImageUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/data/ImageData.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/JumpUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/MsgUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java" afterPath="$PROJECT_DIR$/src/com/mymt/util/ShopUtil.java" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/181.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/182.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/183.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/184.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/185.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/186.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/187.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/188.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/189.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_39.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_47.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_49.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_66.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_68.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/boss/ziyuan_72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/批处理/72/frame1/20.png" afterPath="$PROJECT_DIR$/批处理/72/frame1/20.png" />
-      <change beforePath="$PROJECT_DIR$/批处理/ziyuan_115.png" afterPath="$PROJECT_DIR$/批处理/ziyuan_115.png" />
-    </list>
+    <list default="true" id="460162fe-ea30-472c-bce4-90c491af4535" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -521,12 +448,12 @@
       <workItem from="1531270673565" duration="3771000" />
       <workItem from="1531285087248" duration="35210000" />
       <workItem from="1531356923605" duration="37433000" />
-      <workItem from="1531447890625" duration="80860000" />
+      <workItem from="1531447890625" duration="81109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163365000" />
+    <option name="totallyTimeSpent" value="163614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

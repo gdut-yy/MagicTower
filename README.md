@@ -211,7 +211,7 @@
 
 
 | boss 2（血影） | frame 0 | frame 0 | frame 0 | frame 1 | frame 1 | frame 1 |
-|-|-|-|-|
+|-|-|-|-|-|-|-|
 | 191.png + 192.png + 193.png | ![](/res/map0/191.png) | ![](/res/map0/192.png) | ![](/res/map0/193.png) | ![](/res/map1/191.png) | ![](/res/map1/192.png) | ![](/res/map1/193.png) |
 | 194.png + 195.png + 196.png | ![](/res/map0/194.png) | ![](/res/map0/195.png) | ![](/res/map0/196.png) | ![](/res/map1/194.png) | ![](/res/map1/195.png) | ![](/res/map1/196.png) |
 | 197.png + 198.png + 199.png | ![](/res/map0/197.png) | ![](/res/map0/198.png) | ![](/res/map0/199.png) | ![](/res/map1/197.png) | ![](/res/map1/198.png) | ![](/res/map1/199.png) |
